@@ -1,0 +1,91 @@
+body {
+  background-color: steelblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(60, 70, 70);
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  line-height: 1.6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-size: 32px;
+  font-style: italic;
+  color: darkblue;
+  text-align: center;
+  margin: 10px 0;
+}
+
+h2 {
+  text-align: center;
+  color: azure;
+  font-size: 28px;
+}
+
+p {
+  font-size: 18px;
+  color: rgb(70, 120, 122);
+}
+
+i {
+  font-size: 18px;
+  color: rgb(70, 120, 122);
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bold;
+  margin: 5px;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  /* Artık hareket etmeyecek */
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgb(90, 140, 180);
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+center {
+  display: block;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  div {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
